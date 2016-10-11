@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnp-ST-p2g">
+                                <rect key="frame" x="209" y="56" width="183" height="30"/>
+                                <state key="normal" title="Graphic Arts"/>
+                                <connections>
+                                    <action selector="changeScreens:" destination="BYZ-38-t0r" eventType="touchUpInside" id="92x-FW-mjZ"/>
+                                    <segue destination="gcs-vM-5iy" kind="show" identifier="toUpdatedView" id="N53-OE-GdZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhZ-GZ-m3j">
+                                <rect key="frame" x="254" y="131" width="93" height="30"/>
+                                <state key="normal" title="Programming"/>
+                                <connections>
+                                    <segue destination="4Wi-ZW-M6Z" kind="show" identifier="toProgrammingView" id="s3O-CH-PvO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYQ-Kp-ZOm">
+                                <rect key="frame" x="275" y="420" width="50" height="30"/>
+                                <state key="normal" title="Filming"/>
+                                <connections>
+                                    <segue destination="HSD-z0-rj0" kind="show" identifier="toFilmingView" id="che-QG-GA1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-Ph-U01">
+                                <rect key="frame" x="260" y="496" width="80" height="30"/>
+                                <state key="normal" title="Film Editing"/>
+                                <connections>
+                                    <segue destination="5fu-fw-6tY" kind="show" identifier="toFilmEditingView" id="TyK-e7-FGj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16439494290000001" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="335"/>
+        </scene>
+        <!--Programming View Controller-->
+        <scene sceneID="ubD-LS-U8C">
+            <objects>
+                <viewController id="4Wi-ZW-M6Z" customClass="ProgrammingViewController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n5z-bM-Ynv"/>
+                        <viewControllerLayoutGuide type="bottom" id="OhA-9y-kAW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uzq-io-b7x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.84815559809999996" blue="0.22828137079999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXv-zf-Gne" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="384" y="1024"/>
+        </scene>
+        <!--Film Controller-->
+        <scene sceneID="cAc-Jj-AxK">
+            <objects>
+                <viewController id="5fu-fw-6tY" customClass="filmController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kS3-65-jwi"/>
+                        <viewControllerLayoutGuide type="bottom" id="wSa-VG-fQQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jUD-aN-zLP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.69741542262116396" green="0.36302240924356022" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uK7-Ie-vlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363" y="335"/>
+        </scene>
+        <!--Film Editing Controller-->
+        <scene sceneID="Ozu-IL-mIS">
+            <objects>
+                <viewController id="HSD-z0-rj0" customClass="filmEditingController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gws-LG-qWF"/>
+                        <viewControllerLayoutGuide type="bottom" id="qWd-Og-VEz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="did-1i-vxK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hrf-Ts-byn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="722" y="-372"/>
+        </scene>
+        <!--Updated View Controller-->
+        <scene sceneID="5MW-zS-MRR">
+            <objects>
+                <viewController id="gcs-vM-5iy" customClass="UpdatedViewController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l2e-hU-vVA"/>
+                        <viewControllerLayoutGuide type="bottom" id="XL1-VM-UOP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yHn-gR-4yc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.86670937410000004" green="0.046679764259999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dc6-QH-Wbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="1019"/>
+        </scene>
+    </scenes>
+</document>
