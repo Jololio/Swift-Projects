@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.16439494290000001" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.98745349015802186" green="0.98747319685155088" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,6 +65,15 @@
                     <view key="view" contentMode="scaleToFill" id="Uzq-io-b7x">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0A-Hw-SSv">
+                                <rect key="frame" x="140" y="28" width="321" height="236"/>
+                                <string key="text">Programming has been something I have always wanted to do, since my friends who have background in this field showed me. It really blew me away the things they could do and how much they could create, just by typing a few lines of code and I began to share the desire to learn that process. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.84815559809999996" blue="0.22828137079999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -83,6 +92,15 @@
                     <view key="view" contentMode="scaleToFill" id="jUD-aN-zLP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePW-c8-dPI">
+                                <rect key="frame" x="144" y="28" width="313" height="242"/>
+                                <string key="text">Video Editing has been something I've been doing the most out of all of these. I have always loved editing film and videos for a goof, or for a serious project or something of that sort. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.69741542262116396" green="0.36302240924356022" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -101,6 +119,15 @@
                     <view key="view" contentMode="scaleToFill" id="did-1i-vxK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-yE-lEy">
+                                <rect key="frame" x="129" y="28" width="343" height="250"/>
+                                <string key="text">Filming has definitely been something I've always liked, developing scripts and actually filming scenes. It's always cool to me when I get friends and we try and make a cool action or horror film at our houses. It's always a fun experience I enjoy.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -119,6 +146,15 @@
                     <view key="view" contentMode="scaleToFill" id="yHn-gR-4yc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP3-EW-cca">
+                                <rect key="frame" x="132" y="20" width="336" height="304"/>
+                                <string key="text">Graphic Arts has been a very big interest of mine. I have participated in a few 3D Graphics classes, and I have messed around with 3D Modeling programs like Blender at home myself, and I really enjoyed what I've made, and what I could possible make if I paired my skills I'll develop in Programming in 3D Grapics.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.86670937410000004" green="0.046679764259999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
