@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnp-ST-p2g">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnp-ST-p2g">
                                 <rect key="frame" x="209" y="56" width="183" height="30"/>
                                 <state key="normal" title="Graphic Arts"/>
                                 <connections>
@@ -25,29 +25,48 @@
                                     <segue destination="gcs-vM-5iy" kind="show" identifier="toUpdatedView" id="N53-OE-GdZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhZ-GZ-m3j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhZ-GZ-m3j">
                                 <rect key="frame" x="254" y="131" width="93" height="30"/>
                                 <state key="normal" title="Programming"/>
                                 <connections>
                                     <segue destination="4Wi-ZW-M6Z" kind="show" identifier="toProgrammingView" id="s3O-CH-PvO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYQ-Kp-ZOm">
-                                <rect key="frame" x="275" y="420" width="50" height="30"/>
-                                <state key="normal" title="Filming"/>
-                                <connections>
-                                    <segue destination="HSD-z0-rj0" kind="show" identifier="toFilmingView" id="che-QG-GA1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-Ph-U01">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-Ph-U01">
                                 <rect key="frame" x="260" y="496" width="80" height="30"/>
                                 <state key="normal" title="Film Editing"/>
                                 <connections>
                                     <segue destination="5fu-fw-6tY" kind="show" identifier="toFilmEditingView" id="TyK-e7-FGj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYQ-Kp-ZOm">
+                                <rect key="frame" x="275" y="420" width="50" height="30"/>
+                                <state key="normal" title="Filming"/>
+                                <connections>
+                                    <segue destination="HSD-z0-rj0" kind="show" identifier="toFilmingView" id="che-QG-GA1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98745349015802186" green="0.98747319685155088" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QYQ-Kp-ZOm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="135" id="2WU-OJ-9iv"/>
+                            <constraint firstItem="lwB-Ph-U01" firstAttribute="centerY" secondItem="Hnp-ST-p2g" secondAttribute="centerY" constant="440" id="2mD-L2-hu9"/>
+                            <constraint firstItem="QYQ-Kp-ZOm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8N0-QW-2Gi"/>
+                            <constraint firstItem="vhZ-GZ-m3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BPC-al-7hi"/>
+                            <constraint firstItem="vhZ-GZ-m3j" firstAttribute="centerX" secondItem="Hnp-ST-p2g" secondAttribute="centerX" id="GCz-0d-qm6"/>
+                            <constraint firstItem="lwB-Ph-U01" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="211" id="GXa-0V-BDc"/>
+                            <constraint firstItem="QYQ-Kp-ZOm" firstAttribute="centerY" secondItem="Hnp-ST-p2g" secondAttribute="centerY" constant="364" id="IBb-Vb-Z5d"/>
+                            <constraint firstItem="vhZ-GZ-m3j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-154" id="Mff-i4-ow9"/>
+                            <constraint firstItem="QYQ-Kp-ZOm" firstAttribute="leading" secondItem="Hnp-ST-p2g" secondAttribute="leading" constant="66" id="Ssg-oU-bAu"/>
+                            <constraint firstItem="vhZ-GZ-m3j" firstAttribute="leading" secondItem="Hnp-ST-p2g" secondAttribute="leading" constant="45" id="VnL-dp-HgD"/>
+                            <constraint firstItem="Hnp-ST-p2g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c2t-ks-Cxi"/>
+                            <constraint firstItem="lwB-Ph-U01" firstAttribute="leading" secondItem="Hnp-ST-p2g" secondAttribute="leading" constant="51" id="eBh-Iu-oUj"/>
+                            <constraint firstItem="lwB-Ph-U01" firstAttribute="centerX" secondItem="Hnp-ST-p2g" secondAttribute="centerX" id="efU-L5-Ohv"/>
+                            <constraint firstItem="vhZ-GZ-m3j" firstAttribute="centerY" secondItem="Hnp-ST-p2g" secondAttribute="centerY" constant="75" id="ezk-Gz-GEE"/>
+                            <constraint firstItem="lwB-Ph-U01" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fkp-f3-6OV"/>
+                            <constraint firstItem="QYQ-Kp-ZOm" firstAttribute="centerX" secondItem="Hnp-ST-p2g" secondAttribute="centerX" id="qwP-Q5-Oz7"/>
+                            <constraint firstItem="Hnp-ST-p2g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-229" id="rvj-MD-SQB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -66,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0A-Hw-SSv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0A-Hw-SSv">
                                 <rect key="frame" x="140" y="28" width="321" height="236"/>
                                 <string key="text">Programming has been something I have always wanted to do, since my friends who have background in this field showed me. It really blew me away the things they could do and how much they could create, just by typing a few lines of code and I began to share the desire to learn that process. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -75,6 +94,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.84815559809999996" blue="0.22828137079999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="d0A-Hw-SSv" firstAttribute="centerX" secondItem="Uzq-io-b7x" secondAttribute="centerX" id="Fjg-HD-T8v"/>
+                            <constraint firstItem="d0A-Hw-SSv" firstAttribute="centerY" secondItem="Uzq-io-b7x" secondAttribute="centerY" constant="-154" id="bNG-08-PJo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXv-zf-Gne" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -93,7 +116,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePW-c8-dPI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePW-c8-dPI">
                                 <rect key="frame" x="144" y="28" width="313" height="242"/>
                                 <string key="text">Video Editing has been something I've been doing the most out of all of these. I have always loved editing film and videos for a goof, or for a serious project or something of that sort. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -102,11 +125,15 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.69741542262116396" green="0.36302240924356022" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ePW-c8-dPI" firstAttribute="centerY" secondItem="jUD-aN-zLP" secondAttribute="centerY" constant="-151" id="EWi-FN-hDn"/>
+                            <constraint firstItem="ePW-c8-dPI" firstAttribute="centerX" secondItem="jUD-aN-zLP" secondAttribute="centerX" id="NbL-tW-Nfc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uK7-Ie-vlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1363" y="335"/>
+            <point key="canvasLocation" x="1386" y="363"/>
         </scene>
         <!--Film Editing Controller-->
         <scene sceneID="Ozu-IL-mIS">
@@ -120,7 +147,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-yE-lEy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-yE-lEy">
                                 <rect key="frame" x="129" y="28" width="343" height="250"/>
                                 <string key="text">Filming has definitely been something I've always liked, developing scripts and actually filming scenes. It's always cool to me when I get friends and we try and make a cool action or horror film at our houses. It's always a fun experience I enjoy.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -129,6 +156,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zA8-yE-lEy" firstAttribute="centerY" secondItem="did-1i-vxK" secondAttribute="centerY" constant="-147" id="SUE-5E-Ms2"/>
+                            <constraint firstItem="zA8-yE-lEy" firstAttribute="centerX" secondItem="did-1i-vxK" secondAttribute="centerX" id="fIW-fw-cuD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrf-Ts-byn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -147,7 +178,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP3-EW-cca">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP3-EW-cca">
                                 <rect key="frame" x="132" y="20" width="336" height="304"/>
                                 <string key="text">Graphic Arts has been a very big interest of mine. I have participated in a few 3D Graphics classes, and I have messed around with 3D Modeling programs like Blender at home myself, and I really enjoyed what I've made, and what I could possible make if I paired my skills I'll develop in Programming in 3D Grapics.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -156,11 +187,15 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.86670937410000004" green="0.046679764259999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SP3-EW-cca" firstAttribute="centerX" secondItem="yHn-gR-4yc" secondAttribute="centerX" id="FNq-Mz-A8G"/>
+                            <constraint firstItem="SP3-EW-cca" firstAttribute="centerY" secondItem="yHn-gR-4yc" secondAttribute="centerY" constant="-128" id="OsX-Y4-ppw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dc6-QH-Wbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1138" y="1018"/>
+            <point key="canvasLocation" x="1084" y="1024"/>
         </scene>
     </scenes>
 </document>
